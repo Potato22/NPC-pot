@@ -1,0 +1,140 @@
+.content-container.pt {
+  /*overflow: hidden;*/
+  /*width: 100%;*/
+  height: 580px;
+  background: rgb(255,139,89);
+}
+
+@media (max-width: 900px) {
+  .content-container.pt {
+    height: 880px;
+    /*background-color: red;*/
+  }
+}
+
+@media (max-width: 800px) {
+  .content-container.pt {
+    height: 930px;
+    /*background-color: red;*/
+  }
+}
+
+@media (max-width: 675px) {
+  .content-container.pt {
+    height: 990px;
+    /*background-color: red;*/
+  }
+}
+
+@media (max-width: 580px) {
+  .content-container.pt {
+    height: 1170px;
+    /*background-color: red;*/
+  }
+}
+
+.justifiers.pt {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  /*background: red;*/
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .justifiers.pt {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.picture-showcase.pt {
+  margin: 3rem;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 400px;
+  min-height: 400px;
+  /*padding: 5rem;*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(chrome_WeoXeSmNVo.png);
+  /*background-size: 50%;*/
+}
+
+.content-box.pt {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  word-wrap: break-word;
+  width: 100%;
+  /*background: salmon;*/
+  width: 47%;
+}
+
+@media (max-width: 900px) {
+  .content-box.pt {
+    align-items: center;
+  }
+}
+
+.title.pt {
+  word-wrap: break-word;
+  /*text-align: end;*/
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Raleway';
+  /*margin-right: 2rem;*/
+  /*z-index: 1;*/
+  /*background: rgb(80,65,58);*/
+  /*width: 40%;*/
+  transition-duration: 0.3s;
+  /*padding: 1rem;*/
+}
+
+@media (max-width: 900px) {
+  .title.pt {
+    font-size: 2rem;
+    width: 135%;
+    text-align: center;
+    padding: 1rem;
+    background: rgb(80,65,58);
+  }
+}
+
+@media (max-width: 990px) {
+  .title.pt {
+    font-size: 2rem;
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*padding: 1rem;*/
+    /*background: rgb(80,65,58);*/
+  }
+}
+
+.text-box.pt {
+  /*text-align: end;*/
+  font-size: 16px;
+  /*background: black;*/
+  margin-right: 2rem;
+  /*margin-left: 3rem;*/
+  font-family: 'Raleway';
+}
+
+@media (max-width: 900px) {
+  .text-box.pt {
+    margin-right: 0;
+    width: 190%;
+  }
+}
+
+.content-container.pt {
+  position: relative;
+}
+
+.content-container.pt > * {
+  position: relative;
+}
+

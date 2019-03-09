@@ -1,0 +1,10 @@
+.art {
+  width: 100%;
+  height: 180px;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/7644ec72-8b34-4726-8386-f20f0e072149/d7utrl7-81899381-ae56-4cc4-9be7-9059e4887249.png/v1/fill/w_1024,h_326,q_80,strp/indonisty_by_mewy101_d7utrl7-fullview.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*filter: brightness(80%);*/
+}
+

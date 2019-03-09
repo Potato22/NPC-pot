@@ -1,0 +1,128 @@
+.top.npcnavbar {
+  background: rgba(0,0,0,0.26);
+  width: 100%;
+  height: 70px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  /*flex-direction: column;*/
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+}
+
+.brand.container {
+  /*background: rgb(60,60,60);*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /*width: 15%;*/
+  display: flex;
+  flex-direction: row;
+  /*padding-left: 1.3rem;*/
+  /*position: absolute;*/
+}
+
+.brand-logo {
+  width: 70px;
+  position: absolute;
+  margin-left: 0.5rem;
+}
+
+.brand-text {
+  width: 50px;
+  margin-left: 5rem;
+}
+
+.brand.container:hover #adapt {
+  opacity: 0;
+}
+
+.brand.container:hover #color {
+  opacity: 1;
+}
+
+#color {
+  opacity: 0;
+}
+
+#adapt, #color {
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 390px) {
+  .flex-end {
+    transform: scale(0.7);
+    margin-left: -1rem;
+  }
+}
+
+.flex-end {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 120px;
+}
+
+.ticket-jumper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 140px;
+}
+
+.hf-button {
+  background: rgba(255,255,255,0);
+  padding: 10px 15px;
+  /*margin-right: 1rem;*/
+  font-weight: 800;
+  font-family: 'Quicksand';
+  color: rgba(255,255,255,0.81);
+  /*border: solid rgba(255,255,255,0.51);*/
+  border-radius: 3rem;
+  transition-duration: 0.3s;
+}
+
+.tickets {
+  background: rgba(255,255,255,0);
+  padding: 10px 15px;
+  /*margin-right: 1rem;*/
+  font-weight: 800;
+  font-family: 'Quicksand';
+  color: rgba(255,255,255,0.81);
+  border: solid rgba(255,255,255,0.51);
+  border-radius: 3rem;
+  transition-duration: 0.3s;
+  margin-right: 1rem;
+}
+
+.button-span {
+  margin: 0;
+  padding: 0;
+}
+
+.hf-button:hover {
+  color: #ffffff;
+  font-weight: bold;
+  /*background: white;*/
+}
+
+.tickets:hover {
+  color: #434343;
+  font-weight: bold;
+  background: white;
+  /*border: solid 0 rgba(255,255,255,0);*/
+}
+
+.tickets:active {
+  transform: scale(0.9);
+}
+

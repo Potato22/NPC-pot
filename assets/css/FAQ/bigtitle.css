@@ -1,0 +1,91 @@
+.visible-margin {
+  background: rgb(107,88,77);
+  height: 3rem;
+  box-shadow: rgba(0,0,0,0.44) 0 5px 24px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 4rem;
+  height: 3rem;
+  background: url('../../../assets/img/local%20icons/NPC_MAINLOGO-adaptive_white.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.title-container {
+  /*background: rgb(255,255,255);*/
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: rgba(0,0,0,0.39) 0 5px 12px;
+  user-select: none;
+}
+
+.title-box {
+  position: absolute;
+  z-index: 1;
+}
+
+.cliptext {
+  font-size: 16rem;
+  font-family: 'Raleway';
+  font-weight: 800;
+  background-size: 490%;
+  /*position: absolute;*/
+  background: linear-gradient(145deg, #dec183, #af9389);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 500px) {
+  .cliptext {
+    font-size: 10rem;
+  }
+}
+
+.desc {
+  font-family: 'Raleway';
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: -4rem;
+}
+
+@media (max-width: 500px) {
+  .desc {
+    font-size: 1.2rem;
+    margin-top: -3rem;
+  }
+}
+
+.background-filter {
+  position: inherit;
+  background: url('../../../assets/img/backgrounds/batikdiagonal.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  filter: blur(10px);
+  /*z-index: -1;*/
+  transform: scale(1.1);
+}
+
+.tip {
+  background: rgba(255,209,47,0.39);
+  margin: 1rem 1rem;
+  padding: 1px;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Roboto';
+}
+
+.tiptext {
+  margin: 1rem;
+}
+

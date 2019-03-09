@@ -1,0 +1,131 @@
+.content-container.tp {
+  height: 580px;
+  background: rgb(255,139,89);
+}
+
+@media (max-width: 900px) {
+  .content-container.tp {
+    height: 880px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-container.tp {
+    height: 930px;
+  }
+}
+
+@media (max-width: 675px) {
+  .content-container.tp {
+    height: 990px;
+  }
+}
+
+@media (max-width: 580px) {
+  .content-container.tp {
+    height: 1170px;
+  }
+}
+
+.justifiers.tp {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .justifiers.tp {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.picture-showcase.tp {
+  margin: 3rem;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 400px;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(chrome_WeoXeSmNVo.png);
+}
+
+.content-box.tp {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  word-wrap: break-word;
+  width: 100%;
+  width: 47%;
+  margin-left: 3rem;
+}
+
+@media (max-width: 900px) {
+  .content-box.tp {
+    align-items: center;
+    margin-left: 0rem;
+  }
+}
+
+.title.tp {
+  word-wrap: break-word;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Raleway';
+  transition-duration: 0.3s;
+}
+
+.material-icons.md {
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .title.tp {
+    font-size: 2rem;
+    width: 135%;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255,255,255,0.22);
+  }
+}
+
+@media (max-width: 990px) {
+  .title.tp {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .material-icons.md {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+}
+
+.text-box.tp {
+  font-size: 16px;
+  margin-right: 2rem;
+  font-family: 'Raleway';
+}
+
+@media (max-width: 900px) {
+  .text-box.tp {
+    margin-right: 0;
+    width: 190%;
+  }
+}
+
+.content-container.tp {
+  position: relative;
+}
+
+.content-container.tp > * {
+  position: relative;
+}
+

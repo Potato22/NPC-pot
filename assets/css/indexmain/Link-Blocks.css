@@ -1,0 +1,145 @@
+.component {
+  color: rgb(62, 62, 62);
+  width: 300px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.3s;
+  font-family: 'Raleway';
+  /*margin: 10px;*/
+  transform: scale(0.8);
+}
+
+.component:hover {
+  transform: scale(1.05);
+}
+
+.picture-sec {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.picture1 {
+  background: url('../../../assets/img/cards/socialcards.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.picture2 {
+  background: url('../../../assets/img/cards/socialcards2.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.picture3 {
+  background: url('../../../assets/img/cards/socialcards5.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.picture4 {
+  background: url('../../../assets/img/cards/socialcards6.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.component:hover .picture1 {
+  transform: scale(1.1);
+}
+
+.component:hover .picture2 {
+  transform: scale(1.1);
+}
+
+.component:hover .picture3 {
+  transform: scale(1.1);
+}
+
+.component:hover .picture4 {
+  transform: scale(1.1);
+}
+
+.component:hover .picture-sec {
+  height: 180px;
+}
+
+.titledesc {
+  background: white;
+  width: 300px;
+  /*height: 130px;*/
+  border-radius: 0px 0px 30px 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Quicksand';
+}
+
+.title {
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.thaticon {
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.material-icons.link-indicator {
+  margin-top: 5px;
+  font-size: 18px;
+  transition-duration: 0.2s;
+  opacity: 0;
+}
+
+.component:hover .material-icons.link-indicator.b1 {
+  color: #1da1f2;
+  opacity: 1;
+}
+
+.component:hover .material-icons.link-indicator.b2 {
+  color: #6f85d4;
+  opacity: 1;
+}
+
+.component:hover .material-icons.link-indicator.b3 {
+  color: #4267b2;
+  opacity: 1;
+}
+
+.component:hover .material-icons.link-indicator.b4 {
+  color: #bb4987;
+  opacity: 1;
+}
+
+.link-jump {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+
+.link-jump:hover {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+

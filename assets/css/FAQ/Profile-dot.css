@@ -1,0 +1,65 @@
+a.to-someone {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profiledot {
+  width: 120px;
+  height: 160px;
+  display: flex;
+  margin: 1rem;
+}
+
+.frame {
+  background: rgb(255,255,255);
+  width: 120px;
+  height: 120px;
+  box-shadow: rgba(0,0,0,0.26) 0px 0px 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  transition-duration: 0.2s;
+}
+
+.profile-picture {
+  background: rgb(255,255,255) url('../../../assets/img/pictures/Nightie.png');
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.profile-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 2rem;
+  background: rgb(129,199,225);
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  color: rgb(255,255,255);
+  position: absolute;
+  transform: translate(0px,-70px);
+  z-index: 1;
+  transition-duration: 0.3s;
+  opacity: 0;
+}
+
+.frame:hover .profile-tooltip {
+  transform: translate(0px,-85px);
+  opacity: 1;
+}
+
+.frame:hover {
+  transform: scale(1.1);
+}
+
